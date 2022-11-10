@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Data Tables</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" ></script>
+
+</head>
+
+<link rel="stylesheet" href="khek.css">
+<body>
+    
+    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+<div class="container">
+    <div class="container-fluid">
+
+      
+    <center> <h2>LIBRARY DATAMANAGEMENT SYSTEM</h2>
+        <hr>
+        <pre>
+            <h4>avaliable books listed below!</h4>
+        </pre>
+        </center>
+   
+    <table class="table table-fluid" id="myTable">
+    <thead>
+    <tr><th>BOOKNAME</th><th>AUTHOR</th><th>YEAR</th><th>SUBJECT</th></tr>
+    </thead>
+    <tbody>
+    <tr><td>Data Structure</td><td>Lipschute</td><td>2016</td><td>DS</td></tr>
+    <tr><td>DOS Guide</td><td>NORTRON</td><td>2012</td><td>OS</td></tr>
+    <tr><td>Turbo C++</td><td>Robort Lafore</td><td>2017</td><td>prog</td></tr>
+    <tr><td>Dbase Dummies</td><td>Palmer</td><td>2018</td><td>DBMS</td></tr>
+    <tr><td>Mastering Windows</td><td>Cowart</td><td>2019</td><td>Os</td></tr>
+    <tr><td>Computer Studies</td><td>french</td><td>2008</td><td>pnd</td></tr>
+    <tr><td>A Better India: A Better World</td><td>Narayana Murthy</td><td>2010</td><td>philosophy</td></tr>
+    <tr><td>A Passage to India</td><td>E.M. Foster</td><td>2006</td><td>philosophy</td></tr>
+    <tr><td>A Revenue Stamp</td><td>Amrita Pritam</td><td>2016</td><td>philosophy</td></tr>
+    <tr><td>Death of a City</td><td>Amrita Pritam</td><td>2011</td><td>philosophy</td></tr>
+    <tr><td>Pinjar</td><td>Amrita Pritam</td><td>2008</td><td>philosophy</td></tr>
+    <tr><td>A Tale of Two Cities</td><td>Charles Darwin</td><td>2016</td><td>philosophy</td></tr>
+    <tr><td>David Copperfield</td><td>Charles Darwin</td><td>2018</td><td>philosophy</td></tr>
+    <tr><td>Oliver Twist</td><td>Charles Darwin</td><td>2009</td><td>philosophy</td></tr>
+    <tr><td>Origin of Species</td><td>Charles Darwin</td><td>1929</td><td>philosophy</td></tr>
+    <tr><td>Apple Cart</td><td>George Bernard Shaw</td><td>1929</td><td>satire</td></tr>
+    <tr><td>Arms and the Man</td><td>George Bernard Shaw</td><td>1934</td><td>satire</td></tr>
+    <tr><td>Man and Superman</td><td>George Bernard Shaw</td><td>1945</td><td>satire</td></tr>
+    
+    </tbody>
+    </table>
+</div>
+</div>
+</div>
+<script>
+    $(document).ready( function () {
+    $('#myTable').DataTable();
+} );
+
+
+
+    </script>
+   
+</body>
+</html>
