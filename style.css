@@ -2,3 +2,27 @@ h2 {
     font-family: Impact, sans-serif;
     color: #CE5937;
     }
+    
+table {
+      border-style: solid;
+      border-top: thick single black;
+    }
+    tr{
+       
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+        background-color: lightblue;
+      }
+      body {
+        background-color: white;
+      }
+      div {
+        
+       
+        background:whitesmoke;
+       
+      }
+      
+      
